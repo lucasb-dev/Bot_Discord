@@ -1,0 +1,26 @@
+{
+    "global_history": [
+        {
+            "user_id": 522472262469812225,
+            "command": "!commands",
+            "timestamp": "2025-12-01 22:35:37"
+        },
+        {
+            "user_id": 522472262469812225,
+            "command": "!commands",
+            "timestamp": "2025-12-01 22:17:50"
+        }
+    ],
+    "user_histories": {
+        "522472262469812225": [
+            {
+                "command": "!commands",
+                "timestamp": "2025-12-01 22:17:50"
+            },
+            {
+                "command": "!commands",
+                "timestamp": "2025-12-01 22:35:37"
+            }
+        ]
+    }
+}
