@@ -112,7 +112,7 @@ def save_histories():
 
     with open(HISTORY_FILE, "w") as f:
         json.dump(data, f, indent=4)
-    print("Sauvegarde terminée ✅")
+    print("Sauvegarde terminée")
 
 def load_histories():
     try:
@@ -132,7 +132,7 @@ def load_histories():
                         "command": cmd["command"],
                         "timestamp": datetime.strptime(cmd["timestamp"], "%Y-%m-%d %H:%M:%S")
                     })
-        print("Chargement terminé ✅")
+        print("Chargement terminé")
     except FileNotFoundError:
         print("Aucun fichier d'historique trouvé, démarrage propre.")
 
