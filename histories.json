@@ -1,25 +1,52 @@
 {
     "global_history": [
         {
-            "user_id": 522472262469812225,
-            "command": "!commands",
-            "timestamp": "2025-12-01 22:35:37"
+            "username": "mambye.#0",
+            "command": "!start",
+            "timestamp": "2025-12-01 23:00:09"
         },
         {
-            "user_id": 522472262469812225,
-            "command": "!commands",
-            "timestamp": "2025-12-01 22:17:50"
+            "username": "mambye.#0",
+            "command": "!start",
+            "timestamp": "2025-12-01 22:58:38"
+        },
+        {
+            "username": "mambye.#0",
+            "command": "!myhistory",
+            "timestamp": "2025-12-01 22:58:30"
+        },
+        {
+            "username": "mambye.#0",
+            "command": "!last",
+            "timestamp": "2025-12-01 22:58:21"
+        },
+        {
+            "username": "mambye.#0",
+            "command": "!bonjour",
+            "timestamp": "2025-12-01 22:58:16"
         }
     ],
     "user_histories": {
-        "522472262469812225": [
+        "mambye.#0": [
             {
-                "command": "!commands",
-                "timestamp": "2025-12-01 22:17:50"
+                "command": "!bonjour",
+                "timestamp": "2025-12-01 22:58:16"
             },
             {
-                "command": "!commands",
-                "timestamp": "2025-12-01 22:35:37"
+                "command": "!last",
+                "timestamp": "2025-12-01 22:58:21"
+            },
+            {
+                "command": "!myhistory",
+                "timestamp": "2025-12-01 22:58:30"
+            },
+            {
+                "command": "!start",
+                "timestamp": "2025-12-01 22:58:38"
+            },
+            {
+                "command": "!start",
+                "timestamp": "2025-12-01 23:00:09"
             }
         ]
     }
