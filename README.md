@@ -27,27 +27,39 @@ Un token Discord pour le bot (à placer dans un fichier .env)
 Exemple .env :
 DISCORD_TOKEN=TON_TOKEN_ICI
 
-📝 Commandes
+Commandes
+
 Commandes principales
+
 Commande	Description
+
 !bonjour	Dire bonjour au bot
+
 !last	Affiche la dernière commande entrée par n’importe quel utilisateur
 !myhistory	Affiche toutes vos commandes depuis votre première connexion
 !clearhistory	Vide votre historique personnel
 !clearglobal	Vide l’historique global (administrateur)
+
 Arbre de discussion
+
 Commande	Description
-!start	Commence une conversation avec le bot
-!answer <réponse>	Répond à la question actuelle de l’arbre
-!reset	Recommence la discussion depuis la racine
+
+!start	    Commence une conversation avec le bot
+!reset	    Recommence la discussion depuis la racine
 !speak_about <sujet>	Vérifie si un sujet existe dans l’arbre (répond Oui/Non)
+
+
 Fonctionnalités supplémentaires
-Commande	Description
-!stats	Affiche vos statistiques personnelles de commandes
+
+Commande	    Description
+
+!stats	        Affiche vos statistiques personnelles de commandes
 !guessnumber	Démarre un mini-jeu “Devine le nombre”
-!guess <nombre>	Devine le nombre choisi par le bot
-!quote	Affiche une citation aléatoire inspirante
-💾 Sauvegarde des données
+!guess          <nombre>	Devine le nombre choisi par le bot
+!quote	        Affiche une citation aléatoire inspirante
+
+
+Sauvegarde des données
 
 Toutes les commandes et conversations sont sauvegardées automatiquement dans un fichier JSON unique :
 
@@ -82,7 +94,7 @@ Lancer le bot :
 
 python bot.py
 
-🔧 Notes
+Notes
 
 L’administrateur peut utiliser !clearglobal pour vider toutes les commandes
 
